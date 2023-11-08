@@ -1,0 +1,14 @@
+# Enter your code here
+li = []
+li.append(3)
+li.append("hello")
+li.append(False)
+
+print(li[0])
+print(li[1])
+print(li[2])
+
+li.remove(3)
+li.remove(False)
+
+print(li)
