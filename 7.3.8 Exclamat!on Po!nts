@@ -1,0 +1,7 @@
+# update this function so it replaces all lowercase 'i's in `text` with '!'
+def exclamation(text):
+    txt = text.replace("i", "!")
+    return txt
+
+exclamation("I like music.")
+exclamation("Mississippi")
