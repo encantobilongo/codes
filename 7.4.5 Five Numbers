@@ -1,0 +1,10 @@
+my_list = []
+num_sum = 0
+
+for i in range(5):
+    num = int(input("Enter a number: "))
+    my_list.append(num)
+    num_sum += num
+    print(my_list)
+
+print("Sum: " + str(num_sum))
