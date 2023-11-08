@@ -1,0 +1,15 @@
+middle_name = []
+
+num_names = int(input('Number of names: '))
+
+first_name = input("Name: ")
+
+for i in range(1, num_names - 1):
+    add_mid = input("Name: ")
+    middle_name.append(add_mid)
+
+last_name = input("Name: ")
+
+print("First name: " + first_name)
+print("Middle names: " + str(middle_name))
+print("Last name: " + last_name)
