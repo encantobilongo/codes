@@ -1,0 +1,6 @@
+my_tuple = (0, 1, 2, "hi", 4, 5)
+nana = my_tuple[0:] + my_tuple[1:]
+
+# Your code here...
+new_tuple = (my_tuple[0], my_tuple[1], my_tuple[2], 3, my_tuple[4], my_tuple[5])
+print(new_tuple)
