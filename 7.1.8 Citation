@@ -1,0 +1,5 @@
+def citation (a):
+    first, middle, last = a
+    return f"{last}, {first} {middle}"
+
+print(citation(("Martin", "Luther", "King, Jr.")))
