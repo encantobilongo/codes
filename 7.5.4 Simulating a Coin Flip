@@ -1,0 +1,10 @@
+import random
+
+def coin_flip():
+    # Randomly return 'heads' or 'tails'.
+    if random.randint(0, 1) == 0:
+        return "heads"
+    else:
+        return "tails"
+
+print(coin_flip())
