@@ -6,7 +6,6 @@ def text_to_binary(text):
 
    return binary_text
 
-
 def decimal_to_binary(decimal_value):
    binary_base = 2
    num_bits_desired = 8
@@ -16,7 +15,6 @@ def decimal_to_binary(decimal_value):
        binary_value = "0" + binary_value
 
    return binary_value
-
 
 text = input("Input the string you would like to encode: ")
 binary = text_to_binary(text)
