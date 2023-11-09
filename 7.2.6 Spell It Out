@@ -1,0 +1,13 @@
+# fill in this function to return a list ontaining each character in the name
+def spell_name(name):
+    letters = []
+
+    for i in range(len(name)):
+        letters.append(name[i])
+    
+    return letters
+
+spell_name("eugene")
+spell_name("gretchen")
+spell_name("steve")
+spell_name("helen")
