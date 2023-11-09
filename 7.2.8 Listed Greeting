@@ -1,0 +1,11 @@
+# fill in this function to greet the user!
+def greeting(user_info):
+    name = user_info.split()[0]
+    age = user_info.split()[1]
+    hobby = user_info.split()[2]
+    return "Hello, " + name + "! I also enjoy " + hobby + "!"
+
+greeting("Andy 24 programming")
+greeting("Ania 17 poetry")
+greeting("Horace 45 crosswords")
+greeting("Eugenie 15 soccer")
