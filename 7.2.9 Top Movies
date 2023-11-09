@@ -1,0 +1,5 @@
+# Enter your code here
+movies = ["Men in Black", "El Zorro", "Rush Hour", "Forrest Gump", "Avengers: End Game"]
+print(movies[0])
+movies[0] = "Star Wars"
+print(movies[0])
