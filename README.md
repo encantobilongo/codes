@@ -7,3 +7,5 @@ Buena suerte!
 This is a database of my answers to the CodeHS activities.
 It's a pleasure to meet you and I hope that you finish your *annoying* homework.
 Good luck!
+
+!<https://ichef.bbci.co.uk/news/976/cpsprodpb/090D/production/_92671320_003384846-1.jpg.webp>
