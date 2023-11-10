@@ -1,0 +1,26 @@
+# Make your creation here!
+HEIGHT = get_height()
+WIDTH = get_width()
+CENTER_HEIGHT = HEIGHT / 2
+CENTER_WIDTH = WIDTH / 2
+
+# Trying to draw a question mark
+def draw_circle(color, radius, x, y):
+    circle = Circle(radius)
+    circle.set_position(x, y)
+    circle.set_color(color)
+    add(circle)
+
+def draw_rect(color, width, length, x, y):
+    rect = Rectangle(width, length)
+    rect.set_position(x, y)
+    rect.set_color(color)
+    add(rect)
+
+
+draw_circle(Color.black, 100, CENTER_WIDTH, CENTER_HEIGHT)
+draw_circle(Color.white, 80, CENTER_WIDTH, CENTER_HEIGHT)
+draw_circle(Color.black, 15, CENTER_WIDTH, CENTER_HEIGHT + 50)
+draw_rect(Color.black, 30, 80, CENTER_WIDTH - 15, CENTER_HEIGHT - 50)
+draw_circle(Color.black, 30, CENTER_WIDTH + 10, CENTER_HEIGHT - 30)
+draw_circle(Color.white, 18, CENTER_WIDTH - 5, CENTER_HEIGHT - 30)
