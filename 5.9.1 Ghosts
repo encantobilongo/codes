@@ -1,0 +1,30 @@
+# Constants for body
+HEAD_RADIUS = 35
+BODY_WIDTH = HEAD_RADIUS * 2
+BODY_HEIGHT = 60
+NUM_FEET = 3
+FOOT_RADIUS = (BODY_WIDTH) / (NUM_FEET * 2)
+
+# Constants for eyes
+PUPIL_RADIUS = 4
+PUPIL_LEFT_OFFSET = 8
+PUPIL_RIGHT_OFFSET = 20
+EYE_RADIUS = 10
+EYE_OFFSET = 14
+
+
+# Put your function(s) here
+# Draw ghost
+def draw_ghost(center_x, center_y, color):
+    circle = Circle(HEAD_RADIUS)
+    circle.set_position(center_x, center_y)
+    circle.set_color(color)
+    add(circle)
+
+center_x = get_width()/2
+center_y = get_height()/2
+draw_ghost(center_x, center_y, Color.red)
+draw_ghost(100, 100, Color.green)
+draw_ghost(370, 150, Color.black)
+draw_ghost(40, 200, Color.orange)
+draw_ghost(300, 50, Color.yellow)
