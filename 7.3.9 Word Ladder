@@ -1,0 +1,47 @@
+def get_index(word):
+    while True:
+        try:
+            pos = int(input("Enter an index: "))
+            if pos == -1:
+                return pos
+            elif pos >= len(word):
+                print("invalid index")
+            elif pos <= -1:
+                print("invalid index")
+            else:
+                return pos
+        except ValueError:
+            print("invalid index")
+            
+def get_letter():
+    
+    while True:
+        
+        char = str(input("Enter a letter: "))
+    
+        if char.islower() and len(char)==1:
+            return char
+    
+        elif  not char.islower():  
+            print("Character must be a lowercase letter!")
+  
+        elif len(char) > 1:
+            print("Must be exactly one character!")
+
+def word_ladder(word):
+    
+    while True:
+        pos = get_index(word)
+        if pos == -1:
+            return
+        else:
+            char=get_letter() 
+            
+            word = list(word)
+            word[pos] = char
+            word = ("").join(word)
+            print(word)
+
+word = input("Enter a word: ") 
+
+word_ladder(word)
