@@ -1,0 +1,17 @@
+import random
+# Enter your code here
+RAND_NUM = random.randint(1, 100)
+
+while True:
+    guess = int(input('Guess a random number between 1 and 100: '))
+
+    if guess == RAND_NUM:
+        print('Correct!')
+        break
+
+    print('Incorrect...')
+
+    if guess > RAND_NUM:
+        print("Too big.")
+    else:
+        print("Too small.")
