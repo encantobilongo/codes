@@ -1,0 +1,6 @@
+1. Input, image; output, edited image.
+2. The array is the data of the image.
+3. It allows us to edit the image at each pixel.
+4. Remove_red and it removes all the red. It iterated through each of the pixels.
+5. It removes the red from the image.
+6. It goes through each pixel and removes the red from it.
